@@ -20,6 +20,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.calendar"
 "pm uninstall -k --user 0 com.google.android.contacts"
 "pm uninstall -k --user 0 com.android.mms.service"
+"pm uninstall -k --user 0 com.android.traceur"
 "pm uninstall -k --user 0 com.google.android.cellbroadcastreceiver"
 "pm uninstall -k --user 0 com.dajingtech.update"
 "pm uninstall -k --user 0 com.google.android.play.games"
