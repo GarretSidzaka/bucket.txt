@@ -86,7 +86,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.apps.adm"
 "pm uninstall -k --user 0 com.google.android.apps.nbu.files"
 "pm uninstall -k --user 0 com.android.vending"
-"pm uninstall -k --user 0 com.user 0 cosoftwinner.camera2.config"
+"pm uninstall -k --user 0 cosoftwinner.camera2.config"
 "pm uninstall -k --user 0 com.clock.pt1.keeptesting"
 "pm uninstall -k --user 0 com.google.android.deskclock"
 "pm uninstall -k --user 0 com.android.camera2"
