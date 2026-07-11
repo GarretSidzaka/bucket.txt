@@ -100,7 +100,6 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.gms.supervision"
 "pm uninstall -k --user 0 com.google.android.apps.books"
 "pm uninstall -k --user 0 com.softwinner.android.gmsintegration"
-"pm uninstall -k --user 0 com.android.launcher3"
 "pm uninstall -k --user 0 com.android.cts.ctsshim"
 "pm uninstall -k --user 0 com.google.android.apps.photos"
 "pm uninstall -k --user 0 com.clock.pt1.keeptesting"
