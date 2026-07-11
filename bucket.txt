@@ -121,6 +121,10 @@ command -v adb || {
 echo "adb not installed"
 exit 1
 }
+if [ $1 -eq "-d" ]; then
+   echo "DEBUG MODE"
+   sleep 1
+fi
 echo "============================"
 echo "BEFORE:"
 echo ""
