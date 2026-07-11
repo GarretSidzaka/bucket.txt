@@ -121,7 +121,7 @@ command -v adb || {
 echo "adb not installed"
 exit 1
 }
-if [ $1 -eq "-d" ]; then
+if [ "$1" == "-d" ]; then
    echo "DEBUG MODE"
    sleep 1
 fi
@@ -134,7 +134,7 @@ sleep 1
 for i in "${adb_command_list[@]}"; do
 echo -e "EXECUTING: $i \nOUTPUT:"
 adb shell "$i"
-if [ $1 -eq "-d" ]; then
+if [ "$1" == "-d" ]; then
    read -p "Press enter to continue"
 fi
 done
