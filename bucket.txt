@@ -115,6 +115,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.healthconnect.controller"
 "pm uninstall -k --user 0 com.google.android.adservices.api"
 "pm uninstall -k --user 0 com.google.android.partnersetup"
+"pm uninstall -k --user 0 com.android.intentresolver"
 )
 command -v adb || {
 echo "adb not installed"
