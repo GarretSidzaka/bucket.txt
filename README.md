@@ -2,4 +2,7 @@
 
 THIS TEXT FILE SHOULD ONLY BE USED BY THE BRAVE TO DEGOOGLE ALLWINNER TABLETS.  MIGHT WORK ON A PHONE BUT THAT PHONE NOT GOING TO WORK RIGHT ANYMORE
 
+FDROID: https://f-droid.org/F-Droid.apk
+
+
 <img width="700" height="394" alt="image" src="https://github.com/user-attachments/assets/1dd86582-21f1-4153-8a69-673cccc35d7e" />
