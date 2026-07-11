@@ -110,6 +110,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.softwinner.theme.icon.teardrop"
 "pm uninstall -k --user 0 com.softwinner.awsysteminfo"
 "pm uninstall -k --user 0 com.android.providers.telephony"
+"pm uninstall -k --user 0 com.google.android.setupwizard"
 "pm uninstall -k --user 0 com.android.chrome"
 )
 command -v adb || {
