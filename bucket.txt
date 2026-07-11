@@ -112,6 +112,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.android.providers.telephony"
 "pm uninstall -k --user 0 com.google.android.setupwizard"
 "pm uninstall -k --user 0 com.android.chrome"
+"pm uninstall -k --user 0 com.android.simappdialog"
 )
 command -v adb || {
 echo "adb not installed"
