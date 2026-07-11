@@ -102,6 +102,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.gms"
 "pm uninstall -k --user 0 com.softwinner.android.gmsintegration"
 "pm uninstall -k --user 0 com.google.android.gms.supervision"
+"pm uninstall -k --user 0 com.android.chrome"
 )
 command -v adb || {
 echo "adb not installed"
