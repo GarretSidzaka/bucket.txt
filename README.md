@@ -17,7 +17,11 @@
 #sh ./BUCKET.TXT
 
 
-FDROID: https://f-droid.org/F-Droid.apk
+FDROID: hxxps://f-droid.org/F-Droid.apk
+
+KEYBOARD: hxxps://github.com/FossifyOrg/Keyboard/releases/download/1.9.1/keyboard-14-foss-release.apk
+
+BROWSWER: hxxps://garretsidzaka.com/content/files/2026/07/Waterfox.apk
 
 
 <img width="700" height="394" alt="image" src="https://github.com/user-attachments/assets/1dd86582-21f1-4153-8a69-673cccc35d7e" />
