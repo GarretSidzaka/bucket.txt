@@ -138,4 +138,8 @@ echo "AFTER:"
 echo ""
 sleep 2
 adb shell pm list packages
+sleep 1
+echo "Rebooting tablet in 5 seconds"
+sleep 5
+adb shell reboot
 exit 0
