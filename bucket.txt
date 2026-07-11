@@ -229,4 +229,12 @@ pm uninstall -k --user 0 com.clock.pt1.keeptesting
 
 pm uninstall -k --user 0 com.google.android.deskclock
 
+pm uninstall -k --user 0 com.android.camera2
+
+pm uninstall -k --user 0 com.android.vending 
+
+pm uninstall -k --user 0 com.google.android.deskclock
+
+pm uninstall -k --user 0 com.clock.pt1.keeptesting
+
 
