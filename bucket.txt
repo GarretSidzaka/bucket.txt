@@ -102,6 +102,14 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.gms"
 "pm uninstall -k --user 0 com.softwinner.android.gmsintegration"
 "pm uninstall -k --user 0 com.google.android.gms.supervision"
+"pm uninstall -k --user 0 com.softwinner.theme.icon.square"
+"pm uninstall -k --user 0 com.softwinner.theme.icon.circle"
+"pm uninstall -k --user 0 com.softwinner.theme.icon.squircle"
+"pm uninstall -k --user 0 com.softwinner.runin.res"
+"pm uninstall -k --user 0 com.softwinner.runin"
+"pm uninstall -k --user 0 com.softwinner.theme.icon.teardrop"
+"pm uninstall -k --user 0 com.softwinner.awsysteminfo"
+"pm uninstall -k --user 0 com.android.providers.telephony"
 "pm uninstall -k --user 0 com.android.chrome"
 )
 command -v adb || {
