@@ -2,171 +2,171 @@
 #MUST BE IN ADB SHELL.  NO YOU DO NOT NEED ROOT
 #DO THIS AT YOUR OWN RISK YOU WILL PROBS BREAK SOMETHING
 pm uninstall -k --user 0 com.android.dreams.phototable
-sleep 1
+sleep 1 && echo "its wafer thin" && echo "its wafer thin
 pm uninstall -k --user 0 com.google.android.calendar
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.contacts
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.play.games
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.wellbeing
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.videoplayer
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.providers.calendar
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.providers.blockednumber
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.keep
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.gms.location.history
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.djgd.pdf
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.googleassistant
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.gm
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.tachyon
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.health.connect.backuprestore
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.safetycenter.resources
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.youtube.music
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.bips
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.videos
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.chrome
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.maps
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.djgd.testmode
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.as
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 android.auto_generated_rro_product__
 sleep pm uninstall -k --user 0 com.1
 pm uninstall -k --user 0 com.android.smspush
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.traceur
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.kids.home
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.photos
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.calculator2
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.printspooler
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.qrscanner
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.providers.partnerbookmarks
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.youtube
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.soundrecorder
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.books
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.cts.priv.ctsshim
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.egg
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.rftest
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.cts.ctsshim
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.example.demo
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.example.testad
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.TvdVideo
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.TvdFileManager
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.ImageParser
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.timerswitch
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.screenshot
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.fireplayer
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.update
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.miracastReceiver
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.theme.icon
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.theme.color
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.awmanager
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.provision
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.awlogsettings
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.settingssetup
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.agingdragonbox
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.dragonatt
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.dragonbox
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.allwinnertech.packageoverride
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.htc.storeos
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.mobisystems.office
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.htc.htclauncherhighenglishd08
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.tvvolume
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.awsource
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.htc.htcotaupdate
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.htc.hyk_test
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.htc.htcsettings
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.awlivetv
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.vis
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.htc.closedialog
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.youtube.kids
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.phone
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.emergency
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.dajingtech.update
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.dreams.basic
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.docs
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.googlequicksearchbox
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.adm
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.apps.nbu.files
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.android.vending
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.softwinner.camera2.config
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.clock.pt1.keeptesting
-sleep 1
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.deskclock
-sleep 1
+sleep 1 && echo "its wafer thin"
 
 
 
