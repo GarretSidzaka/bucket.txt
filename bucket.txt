@@ -104,8 +104,15 @@ command -v adb || {
 echo "adb not installed"
 exit 1
 }
-
+echo "BEFORE:"
+echo ""
+sleep 1
+adb shell pm list packages
 for i in "${adb_command_list[@]}"; do
 adb shell "$i"
 done
+echo "AFTER:"
+echo ""
+sleep 1
+adb shell pm list packages
 exit 0
