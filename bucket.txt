@@ -130,7 +130,7 @@ sleep 1
 adb shell pm list packages
 sleep 1
 for i in "${adb_command_list[@]}"; do
-echo "EXECUTING: $i \nOUTPUT:"
+echo -e "EXECUTING: $i \nOUTPUT:"
 adb shell "$i"
 done
 echo "============================"
