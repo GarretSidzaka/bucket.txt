@@ -1,0 +1,87 @@
+#BUCKET.TXT
+#MUST BE IN ADB SHELL.  NO YOU DO NOT NEED ROOT
+#DO THIS AT YOUR OWN RISK YOU WILL PROBS BREAK SOMETHING
+pm uninstall -k --user 0 com.android.dreams.phototable
+pm uninstall -k --user 0 com.google.android.calendar
+pm uninstall -k --user 0 com.google.android.contacts
+pm uninstall -k --user 0 com.google.android.play.games
+pm uninstall -k --user 0 com.google.android.apps.wellbeing
+pm uninstall -k --user 0 com.softwinner.videoplayer
+pm uninstall -k --user 0 com.android.providers.calendar
+pm uninstall -k --user 0 com.android.providers.blockednumber
+pm uninstall -k --user 0 com.google.android.keep
+pm uninstall -k --user 0 com.google.android.gms.location.history
+pm uninstall -k --user 0 com.djgd.pdf
+pm uninstall -k --user 0 com.google.android.apps.googleassistant
+pm uninstall -k --user 0 com.google.android.gm
+pm uninstall -k --user 0 com.google.android.apps.tachyon
+pm uninstall -k --user 0 com.google.android.health.connect.backuprestore
+pm uninstall -k --user 0 com.google.android.safetycenter.resources
+pm uninstall -k --user 0 com.google.android.apps.youtube.music
+pm uninstall -k --user 0 com.android.bips
+pm uninstall -k --user 0 com.google.android.videos
+pm uninstall -k --user 0 com.android.chrome
+pm uninstall -k --user 0 com.google.android.apps.maps
+pm uninstall -k --user 0 com.djgd.testmode
+pm uninstall -k --user 0 com.google.android.as
+pm uninstall -k --user 0 android.auto_generated_rro_product__
+pm uninstall -k --user 0 com.android.smspush
+pm uninstall -k --user 0 com.android.traceur
+pm uninstall -k --user 0 com.google.android.apps.kids.home
+pm uninstall -k --user 0 com.google.android.apps.photos
+pm uninstall -k --user 0 com.android.calculator2
+pm uninstall -k --user 0 com.android.printspooler
+pm uninstall -k --user 0 com.softwinner.qrscanner
+pm uninstall -k --user 0 com.android.providers.partnerbookmarks
+pm uninstall -k --user 0 com.google.android.youtube
+pm uninstall -k --user 0 com.android.soundrecorder
+pm uninstall -k --user 0 com.google.android.apps.books
+pm uninstall -k --user 0 com.android.cts.priv.ctsshim
+pm uninstall -k --user 0 com.android.egg
+pm uninstall -k --user 0 com.android.rftest
+pm uninstall -k --user 0 com.android.cts.ctsshim
+pm uninstall -k --user 0 com.example.demo
+pm uninstall -k --user 0 com.example.testad
+pm uninstall -k --user 0 com.softwinner.TvdVideo
+pm uninstall -k --user 0 com.softwinner.TvdFileManager
+pm uninstall -k --user 0 com.softwinner.ImageParser
+pm uninstall -k --user 0 com.softwinner.timerswitch
+pm uninstall -k --user 0 com.softwinner.screenshot
+pm uninstall -k --user 0 com.softwinner.fireplayer
+pm uninstall -k --user 0 com.softwinner.update
+pm uninstall -k --user 0 com.softwinner.miracastReceiver
+pm uninstall -k --user 0 com.softwinner.theme.icon
+pm uninstall -k --user 0 com.softwinner.theme.color
+pm uninstall -k --user 0 com.softwinner.awmanager
+pm uninstall -k --user 0 com.softwinner.provision
+pm uninstall -k --user 0 com.softwinner.awlogsettings
+pm uninstall -k --user 0 com.softwinner.settingssetup
+pm uninstall -k --user 0 com.softwinner.agingdragonbox
+pm uninstall -k --user 0 com.softwinner.dragonatt
+pm uninstall -k --user 0 com.softwinner.dragonbox
+pm uninstall -k --user 0 com.allwinnertech.packageoverride
+pm uninstall -k --user 0 com.htc.storeos
+pm uninstall -k --user 0 com.mobisystems.office
+pm uninstall -k --user 0 com.htc.htclauncherhighenglishd08
+pm uninstall -k --user 0 com.softwinner.tvvolume
+pm uninstall -k --user 0 com.softwinner.awsource
+pm uninstall -k --user 0 com.htc.htcotaupdate
+pm uninstall -k --user 0 com.htc.hyk_test
+pm uninstall -k --user 0 com.htc.htcsettings
+pm uninstall -k --user 0 com.softwinner.awlivetv
+pm uninstall -k --user 0 com.softwinner.vis
+pm uninstall -k --user 0 com.htc.closedialog
+pm uninstall -k --user 0 com.google.android.apps.youtube.kids
+pm uninstall -k --user 0 com.android.phone
+pm uninstall -k --user 0 com.android.emergency
+pm uninstall -k --user 0 com.dajingtech.update
+pm uninstall -k --user 0 com.android.dreams.basic
+pm uninstall -k --user 0 com.google.android.apps.docs
+pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+pm uninstall -k --user 0 com.google.android.apps.adm
+
+
+
+
+
+
