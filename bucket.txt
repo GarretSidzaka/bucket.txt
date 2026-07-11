@@ -24,7 +24,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.apps.youtube.music"
 "pm uninstall -k --user 0 com.android.bips"
 "pm uninstall -k --user 0 com.google.android.videos"
-"pm uninstall -k --user 0 com.android.chrome"
+"pm uninstall -k --user 0 com.android.chrome"com.google.mainline.telemetry
 "pm uninstall -k --user 0 com.google.android.apps.maps"
 "pm uninstall -k --user 0 com.djgd.testmode"
 "pm uninstall -k --user 0 com.google.android.as"
@@ -94,6 +94,11 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.android.vending"
 "pm uninstall -k --user 0 com.google.android.deskclock"
 "pm uninstall -k --user 0 com.clock.pt1.keeptesting"
+"pm uninstall -k --user 0 com.google.mainline.telemetry"
+"pm uninstall -k --user 0 com.google.android.cellbroadcastservice"
+"pm uninstall -k --user 0 com.google.android.gms"
+"pm uninstall -k --user 0 com.softwinner.android.gmsintegration"
+"pm uninstall -k --user 0 com.google.android.gms.supervision"
 )
 command -v adb || {
 echo "adb not installed"
