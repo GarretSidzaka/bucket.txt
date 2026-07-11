@@ -166,8 +166,6 @@ sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.clock.pt1.keeptesting
 sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.deskclock
-sleep 1 && echo "its wafer thin"
-
 
 
 
