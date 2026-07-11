@@ -12,6 +12,7 @@
 #sh ./BUCKET.TXT
 #YOU CAN JUST PASTE IN THESE COMMANDS BELOW FOR WINDOWS USERS AFTER USING ADB SHELL
 adb_command_list=(
+"pm uninstall -k --user 0 com.android.devicelockcontroller"
 "pm uninstall -k --user 0 com.android.dreams.phototable"
 "pm uninstall -k --user 0 com.google.android.apps.nbu.files"
 "pm uninstall -k --user 0 com.android.dreams.basic"
