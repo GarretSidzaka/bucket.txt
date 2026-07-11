@@ -71,7 +71,6 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.android.chrome"
 "pm uninstall -k --user 0 com.google.android.apps.maps"
 "pm uninstall -k --user 0 com.djgd.testmode"
-"pm uninstall -k --user 0 com.android.devicelockcontroller"
 "pm uninstall -k --user 0 com.google.android.as"
 "pm uninstall -k --user 0 com.android.musicfx"
 "pm uninstall -k --user 0 com.google.android.inputmethod.latin"
