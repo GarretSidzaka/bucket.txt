@@ -79,7 +79,6 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.android.apps.docs"
 "pm uninstall -k --user 0 com.google.android.setupwizard"
 "pm uninstall -k --user 0 com.google.android.apps.safetyhub"
-"pm uninstall -k --user 0 com.google.android.apps.restore"
 "pm uninstall -k --user 0 com.android.simappdialog"
 "pm uninstall -k --user 0 com.android.providers.telephony"
 "pm uninstall -k --user 0 com.softwinner.theme.icon.squircle"
