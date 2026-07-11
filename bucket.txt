@@ -2,7 +2,7 @@
 #MUST BE IN ADB SHELL.  NO YOU DO NOT NEED ROOT
 #DO THIS AT YOUR OWN RISK YOU WILL PROBS BREAK SOMETHING
 pm uninstall -k --user 0 com.android.dreams.phototable
-sleep 1 && echo "its wafer thin" && echo "its wafer thin
+sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.calendar
 sleep 1 && echo "its wafer thin"
 pm uninstall -k --user 0 com.google.android.contacts
