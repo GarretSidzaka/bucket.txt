@@ -31,7 +31,6 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.softwinner.videoplayer"
 "pm uninstall -k --user 0 com.google.android.ondevicepersonalization.services"
 "pm uninstall -k --user 0 com.android.bookmarkprovider"
-"pm uninstall -k --user 0 com.google.android.onetimeinitializer"
 "pm uninstall -k --user 0 com.android.providers.calendar"
 "pm uninstall -k --user 0 com.android.providers.blockednumber"
 "pm uninstall -k --user 0 com.softwinner.theme.icon.circle"
