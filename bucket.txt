@@ -87,7 +87,6 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.google.mainline.telemetry"
 "pm uninstall -k --user 0 com.google.android.cellbroadcastservice"
 "pm uninstall -k --user 0 com.softwinner.android.gmsintegration"
-"pm uninstall -k --user 0 c.supervision"
 "pm uninstall -k --user 0 com.softwinner.theme.icon.square"
 "pm uninstall -k --user 0 com.softwinner.theme.icon.circle"
 "pm uninstall -k --user 0 com.softwinner.theme.icon.squircle"
