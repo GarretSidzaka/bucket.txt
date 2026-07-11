@@ -108,8 +108,13 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.softwinner.theme.icon.teardrop"
 "pm uninstall -k --user 0 com.softwinner.awsysteminfo"
 "pm uninstall -k --user 0 com.android.providers.telephony"
+"pm uninstall -k --user 0 com.android.server.telecom"
 "pm uninstall -k --user 0 com.google.android.setupwizard"
 "pm uninstall -k --user 0 com.android.chrome"
+"pm uninstall -k --user 0 com.google.android.inputmethod.latin"
+"pm uninstall -k --user 0 com.google.android.healthconnect.controller"
+"pm uninstall -k --user 0 com.google.android.adservices.api"
+"pm uninstall -k --user 0 com.google.android.partnersetup"
 )
 command -v adb || {
 echo "adb not installed"
