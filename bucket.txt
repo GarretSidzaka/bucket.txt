@@ -49,7 +49,7 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.softwinner.TvdFileManager"
 "pm uninstall -k --user 0 com.softwinner.ImageParser"
 "pm uninstall -k --user 0 com.softwinner.timerswitch"
-"pm uninstall -k --user 0 com.softwinner.screensh"pm uninstall -k --user 0 ot"
+"pm uninstall -k --user 0 com.softwinner.screenshot"
 "pm uninstall -k --user 0 com.softwinner.fireplayer"
 "pm uninstall -k --user 0 com.softwinner.update"
 "pm uninstall -k --user 0 com.softwinner.miracastReceiver"
