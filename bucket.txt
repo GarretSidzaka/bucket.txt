@@ -53,24 +53,7 @@ com.google.android.as
 com.google.android.as.oss
 com.google.android.health.connect.backuprestore
 com.google.android.healthconnect.controller
-com.android.providers.telephony
-com.android.server.telecom
-com.android.carrierconfig
-com.google.android.apps.carrier.carrierwifi
-com.google.android.cellbroadcastreceiver
-com.google.android.cellbroadcastservice
-com.android.mms.service
-com.android.smspush
-com.android.nfc
-com.google.android.tag
-com.android.location.fused
-com.google.android.gms.location.history
-#com.google.android.partnersetup
-#com.google.android.federatedcompute
-#com.google.android.gms.supervision
-#com.android.companiondevicemanager
-#com.google.ambient.streaming
-#com.android.uwb.resources
+#ALLWINNER SPECIFIC PACKAGES
 com.dajingtech.update
 com.softwinner.update
 com.softwinner.android.gmsintegration
