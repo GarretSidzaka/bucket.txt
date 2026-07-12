@@ -54,6 +54,7 @@ com.google.android.as.oss
 com.google.android.health.connect.backuprestore
 com.google.android.healthconnect.controller
 com.google.android.apps.wellbeing
+com.google.android.apps.safetyhub
 #ALLWINNER SPECIFIC PACKAGES
 com.dajingtech.update
 com.softwinner.update
