@@ -49,12 +49,8 @@ com.android.vending
 com.google.android.onetimeinitializer
 com.google.android.setupwizard
 com.google.android.apps.adm
-#com.google.android.as
-#com.google.android.as.oss
-#com.google.android.partnersetup
-#com.google.android.federatedcompute
-#com.google.android.gms.supervision
-#com.google.android.gms.location.history
+com.google.android.as
+com.google.android.as.oss
 #com.google.android.health.connect.backuprestore
 #com.google.android.healthconnect.controller
 #com.android.providers.telephony
@@ -68,6 +64,10 @@ com.google.android.apps.adm
 #com.android.nfc
 #com.google.android.tag
 #com.android.location.fused
+#com.google.android.gms.location.history
+#com.google.android.partnersetup
+#com.google.android.federatedcompute
+#com.google.android.gms.supervision
 #com.android.companiondevicemanager
 #com.google.ambient.streaming
 #com.android.uwb.resources
