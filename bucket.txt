@@ -7,47 +7,46 @@
 #BRUH DONT RUN THIS ON YOUR CELL PHONE, EVER. #THIS IS JUST FOR THOSE KNOCKOFF/ALLWINNER TABLETS RUNNING ANDROID
 #THIS WOULD BREAK YOUR PHONE REALLY BADLY.
 #MUST HAVE android-tools OR WHATEVER IT IS THAT GIVES YOU ADB
-#YOU CAN EITHER RUN THESE IN SMALL PASTE BATCHES, OR RUN
 #BUCKET.TXT AS A LINUX SH EXECUTABLE WITH 
 #sh ./BUCKET.TXT
-#YOU CAN JUST PASTE IN THESE COMMANDS BELOW FOR WINDOWS USERS AFTER USING ADB SHELL
 adb_command_list=(
-"pm uninstall -k --user 0 com.android.chrome"
-"pm uninstall -k --user 0 com.google.android.googlequicksearchbox"
-"pm uninstall -k --user 0 com.google.android.webview"
-"pm uninstall -k --user 0 com.google.android.apps.maps"
-"pm uninstall -k --user 0 com.google.android.youtube"
-"pm uninstall -k --user 0 com.google.android.apps.youtube.music"
-"pm uninstall -k --user 0 com.google.android.apps.youtube.kids"
-"pm uninstall -k --user 0 com.google.android.gm"
-"pm uninstall -k --user 0 com.google.android.calendar"
-"pm uninstall -k --user 0 com.google.android.contacts"
-"pm uninstall -k --user 0 com.google.android.keep"
-"pm uninstall -k --user 0 com.google.android.apps.docs"
-"pm uninstall -k --user 0 com.google.android.apps.photos"
-"pm uninstall -k --user 0 com.google.android.apps.googleassistant"
-"pm uninstall -k --user 0 com.google.android.apps.nbu.files"
-"pm uninstall -k --user 0 com.google.android.apps.tachyon"
-"pm uninstall -k --user 0 com.google.android.apps.books"
-"pm uninstall -k --user 0 com.google.android.videos"
-"pm uninstall -k --user 0 com.google.android.play.games"
-"pm uninstall -k --user 0 com.google.android.deskclock"
-"pm uninstall -k --user 0 com.google.android.inputmethod.latin"
-"pm uninstall -k --user 0 com.android.calculator2"
-"pm uninstall -k --user 0 com.android.camera2"
-"pm uninstall -k --user 0 com.android.soundrecorder"
-"pm uninstall -k --user 0 com.android.soundpicker"
-"pm uninstall -k --user 0 com.android.musicfx"
-"pm uninstall -k --user 0 com.android.htmlviewer"
-"pm uninstall -k --user 0 com.android.bookmarkprovider"
-"pm uninstall -k --user 0 com.android.providers.partnerbookmarks"
-"pm uninstall -k --user 0 com.google.android.printservice.recommendation"
-"pm uninstall -k --user 0 com.google.android.apps.kids.home"
-"pm uninstall -k --user 0 com.android.simappdialog"
-"pm uninstall -k --user 0 com.android.emergency"
-"pm uninstall -k --user 0 com.android.egg"
-"pm uninstall -k --user 0 com.android.vending"
-"pm uninstall -k --user 0 com.google.android.apps.adm"
+com.android.chrome
+com.google.android.googlequicksearchbox
+com.google.android.webview
+com.google.android.apps.maps
+com.google.android.youtube
+com.google.android.apps.youtube.music
+com.google.android.apps.youtube.kids
+com.google.android.gm
+com.google.android.calendar
+com.google.android.contacts
+com.google.android.keep
+com.google.android.apps.docs
+com.google.android.apps.photos
+com.google.android.apps.googleassistant
+com.google.android.apps.nbu.files
+com.google.android.apps.tachyon
+com.google.android.apps.books
+com.google.android.videos
+com.google.android.play.games
+com.google.android.deskclock
+com.google.android.inputmethod.latin
+com.android.calculator2
+com.android.camera2
+com.android.soundrecorder
+com.android.soundpicker
+com.android.musicfx
+com.android.htmlviewer
+com.android.bookmarkprovider
+com.android.providers.partnerbookmarks
+com.google.android.printservice.recommendation
+com.google.android.apps.kids.home
+com.android.simappdialog
+com.android.emergency
+com.android.egg
+com.android.vending
+com.google.android.apps.adm
+
 )
 command -v adb || {
 echo "adb not installed"
@@ -65,7 +64,7 @@ adb shell pm list packages
 sleep 1
 for i in "${adb_command_list[@]}"; do
 echo -e "EXECUTING: $i \nOUTPUT:"
-adb shell "$i"
+adb shell pm uninstall -k --user 0 "$i"
 if [ "$1" == "-d" ]; then
    read -p "Press enter to continue"
 fi
