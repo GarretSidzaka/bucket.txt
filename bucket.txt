@@ -48,6 +48,7 @@ com.android.egg
 com.android.vending
 com.google.android.onetimeinitializer
 com.google.android.setupwizard
+com.google.android.apps.adm
 #com.google.android.as
 #com.google.android.as.oss
 #com.google.android.partnersetup
@@ -56,7 +57,6 @@ com.google.android.setupwizard
 #com.google.android.gms.location.history
 #com.google.android.health.connect.backuprestore
 #com.google.android.healthconnect.controller
-#com.google.android.apps.adm
 #com.android.providers.telephony
 #com.android.server.telecom
 #com.android.carrierconfig
