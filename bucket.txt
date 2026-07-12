@@ -4,12 +4,13 @@
 #MORE DISCLAIMER: IF YOU THINK THIS SCRIPT MAKES ANDROID SECURE FOR YOU TO DO ILLEGAL THINGS, THINK AGAIN.
 #THIS SCRIPT DOES NOT REMOVE CORE DEPENDANCIES AND YOU WOULD LIKELY BE TRACKED VIA THOSE.
 #MOREOVER:
-#BRUH DONT RUN THIS ON YOUR CELL PHONE, EVER. #THIS IS JUST FOR THOSE KNOCKOFF/ALLWINNER TABLETS RUNNING ANDROID
+#BRUH DONT RUN THIS ON YOUR CELL PHONE, EVER. 
+#THIS IS JUST FOR THOSE KNOCKOFF/ALLWINNER TABLETS RUNNING ANDROID
 #THIS WOULD BREAK YOUR PHONE REALLY BADLY.
 #MUST HAVE android-tools OR WHATEVER IT IS THAT GIVES YOU ADB
-#BUCKET.TXT AS A LINUX SH EXECUTABLE
-#sh ./BUCKET.TXT
-adb_command_list=(
+#RUN BUCKET.TXT AS A LINUX SH EXECUTABLE
+#sh ./BUCKET.TXT -d
+target_package_list=(
 com.android.chrome
 com.google.android.googlequicksearchbox
 com.google.android.webview
@@ -83,27 +84,29 @@ exit 1
 if [ "$1" == "-d" ]; then
    echo "DEBUG MODE"
    sleep 1
+   echo "============================"
+   echo "BEFORE:"
+   echo ""
+   sleep 1
+   adb shell pm list packages
+   sleep 1
 fi
-echo "============================"
-echo "BEFORE:"
-echo ""
-sleep 1
-adb shell pm list packages
-sleep 1
-for i in "${adb_command_list[@]}"; do
+for i in "${target_package_list[@]}"; do
 echo -e "EXECUTING: $i \nOUTPUT:"
 adb shell pm uninstall -k --user 0 "$i"
 if [ "$1" == "-d" ]; then
    read -p "Press enter to continue"
 fi
 done
-echo "============================"
-echo "AFTER:"
-echo ""
-sleep 2
-adb shell pm list packages
-sleep 1
-echo "Rebooting tablet in 5 seconds"
+if [ "$1" == "-d" ]; then
+   echo "============================"
+   echo "AFTER:"
+   echo ""
+   adb shell pm list packages
+   sleep 1
+fi
+read -p "Press enter to reboot target android device, or Control-C to end script now without reboot."
+echo "Rebooting android device in 5 seconds"
 sleep 5
 adb shell reboot
 exit 0
