@@ -7,7 +7,7 @@
 #BRUH DONT RUN THIS ON YOUR CELL PHONE, EVER. #THIS IS JUST FOR THOSE KNOCKOFF/ALLWINNER TABLETS RUNNING ANDROID
 #THIS WOULD BREAK YOUR PHONE REALLY BADLY.
 #MUST HAVE android-tools OR WHATEVER IT IS THAT GIVES YOU ADB
-#BUCKET.TXT AS A LINUX SH EXECUTABLE WITH 
+#BUCKET.TXT AS A LINUX SH EXECUTABLE
 #sh ./BUCKET.TXT
 adb_command_list=(
 com.android.chrome
@@ -46,7 +46,35 @@ com.android.emergency
 com.android.egg
 com.android.vending
 com.google.android.apps.adm
-
+com.android.providers.telephony
+com.android.server.telecom
+com.android.carrierconfig
+com.google.android.apps.carrier.carrierwifi
+com.google.android.cellbroadcastreceiver
+com.google.android.cellbroadcastservice
+com.android.mms.service
+com.android.smspush
+com.android.nfc
+com.google.android.tag
+com.android.location.fused
+com.android.companiondevicemanager
+com.google.ambient.streaming
+com.android.uwb.resources
+com.dajingtech.update
+com.softwinner.update
+com.softwinner.android.gmsintegration
+com.softwinner.awlogsettings
+com.softwinner.awsysteminfo
+com.clock.pt1.keeptesting
+com.djgd.testmode
+com.softwinner.runin.res
+com.softwinner.runin
+com.softwinner.dragonatt
+com.djgd.pdf
+com.softwinner.videoplayer
+com.softwinner.screenshot
+com.softwinner.qrscanner
+com.softwinner.timerswitch
 )
 command -v adb || {
 echo "adb not installed"
