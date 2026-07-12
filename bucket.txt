@@ -46,6 +46,8 @@ adb_command_list=(
 "pm uninstall -k --user 0 com.android.simappdialog"
 "pm uninstall -k --user 0 com.android.emergency"
 "pm uninstall -k --user 0 com.android.egg"
+"pm uninstall -k --user 0 com.android.vending"
+"pm uninstall -k --user 0 com.google.android.apps.adm"
 )
 command -v adb || {
 echo "adb not installed"
